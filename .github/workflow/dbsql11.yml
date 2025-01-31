@@ -1,0 +1,9 @@
+Name: dbsql1
+run-name: Setting Up the dbsql Database
+on: [push]
+jobs:
+  test-output:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Test Output
+      run: echo "Here is a test"
